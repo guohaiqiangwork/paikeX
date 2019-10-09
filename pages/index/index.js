@@ -67,6 +67,12 @@ Page({
       tabIndex: event.currentTarget.dataset.index
     })
   },
+//去报名
+  goToHome: function () {
+    wx.switchTab({
+      url: '../home/home'
+    })
+  },
 // 美食菜单切换
   clickTab: function(event){
     console.log(event.currentTarget.dataset.index)
