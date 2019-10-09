@@ -1,10 +1,12 @@
 {
   "pages": [
+    "pages/ranking/ranking",
     "pages/index/index",
     "pages/home/home",
     "pages/about/about",
     "pages/personal/personal",
     "pages/businessmen/businessmen"
+ 
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -42,6 +44,9 @@
         "text": "我的"
       }
     ]
+  },
+  "usingComponents": {
+    "navbar": "/commpents/navbar/navbar"
   },
   "sitemapLocation": "sitemap.json"
 }

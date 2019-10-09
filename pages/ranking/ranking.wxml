@@ -1,0 +1,24 @@
+<!-- 标题 -->
+<view class='box-detail' style="padding-top:{{bar_Height  + 42}}px;">
+  <navbar title='排行榜' show_bol='{{ishideback}}' my_class='{{my_class}}'></navbar>
+</view>
+<view class="bj_image_t">
+
+  <view style='margin-top:{{bar_Height - 50}}rpx' class='{{isRuleTrue ?"indexFixed":""}}'>
+    <!-- 内容 -->
+    <view class='product_view_centerb' style='min-height:{{phone_Height}}px'>
+      <!-- 切换 -->
+      <view class="weui-flex view_dispaly_flex product_size28">
+        <view class="weui-flex__item" wx:for="{{productTabList}}" data-id='{{item.id}}' catchtap='productTabSwich'>
+          <view class=" {{produc_tabFalg != item.id ? 'product_tab_font_color':'' }}">{{item.name}}</view>
+          <view class='border_tab_y' wx:if="{{produc_tabFalg == item.id}}"></view>
+        </view>
+      </view>
+      <!--tab内容 -->
+      <view class='product_view_list'>
+        <!-- 产品介绍 -->
+        <view wx:if="{{produc_tabFalg == '001'}}">{{phone_Height}}</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,8 @@
+ <view class='status-bar {{my_class_b ? "status-bar_b" : ""}}'>
+    <view class='goBack' bindtap='goBack' style="padding-top:{{bar_Height-15}}px;"  hidden='{{show_bol}}'>	
+      <image src="{{ '../../images/back_grey.png'}}"></image>
+    </view>
+    <view class="tabar {{my_class ? 'tabar2':''}} {{my_class_b ? 'tabar_b ' : ''}}" style="padding-top:{{bar_Height - 30}}px;">
+      <text class="">{{title}}</text>	
+    </view>
+  </view>

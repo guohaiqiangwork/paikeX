@@ -335,7 +335,7 @@
       <view class="slider-box">
         <image class="slider-img pos4" src="/images/index/ycdh_04.png"></image>
       </view>
-      <view class="slider-box">
+      <view class="slider-box" bindtap="goToRanking">
         <image class="slider-img pos5" src="/images/index/ycdh_05.png"></image>
       </view>
       <view class="slider-box">

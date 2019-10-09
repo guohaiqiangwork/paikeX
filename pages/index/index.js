@@ -88,6 +88,13 @@ Page({
       isDrag: !this.data.isDrag
     })
   },
+  // 去排行榜
+  goToRanking: function(){
+    wx.navigateTo({
+      url: '../ranking/ranking'
+    })
+
+  },
   // onLaunch: function () {
   //   console.log(1)
   // },
