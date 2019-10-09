@@ -1,13 +1,47 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/about/about"
+    "pages/home/home",
+    "pages/about/about",
+    "pages/personal/personal",
+    "pages/businessmen/businessmen"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#000",
     "navigationBarTitleText": "π客",
     "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#a9b7b7",
+    "selectedColor": "#11cd6e",
+    "borderStyle": "black",
+    "list": [
+      {
+        "selectedIconPath": "images/index/amazing.png",
+        "iconPath": "images/index/amazing.png",
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "selectedIconPath": "images/index/amazing.png",
+        "iconPath": "images/index/amazing.png",
+        "pagePath": "pages/about/about",
+        "text": "商户列表"
+      },
+      {
+        "selectedIconPath": "images/index/amazing.png",
+        "iconPath": "images/index/amazing.png",
+        "pagePath": "pages/personal/personal",
+        "text": "玩法"
+      },
+      {
+        "selectedIconPath": "images/index/amazing.png",
+        "iconPath": "images/index/amazing.png",
+        "pagePath": "pages/personal/personal",
+        "text": "我的"
+      }
+    ]
   },
   "sitemapLocation": "sitemap.json"
 }

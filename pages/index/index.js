@@ -61,13 +61,13 @@ Page({
     isDrag:false,
   },
 
-
+// 评论切换
   tabClick: function (event){
     this.setData({
       tabIndex: event.currentTarget.dataset.index
     })
   },
-
+// 美食菜单切换
   clickTab: function(event){
     console.log(event.currentTarget.dataset.index)
     this.setData({
@@ -75,6 +75,7 @@ Page({
     })
     
   },
+  // 侧边栏菜单
   dragSlider: function () {
     console.log(132)
     this.setData({
@@ -92,7 +93,7 @@ Page({
     wx.login({
       timeout:2000,
       success: function(res){
-        console.log(res);
+        console.log(JSON.stringify(res)  + '登录');
         if (res.code) {
           // 发起网络请求
           $http._get('/mb/login/' + res.code).then(res => {
@@ -122,7 +123,6 @@ Page({
 
     wx.getSetting({
       success(res) {
-        console.log(res);
         if (res.authSetting['scope.userInfo']) {
           // 已经授权，可以直接调用 getUserInfo 获取头像昵称
           wx.getUserInfo({
