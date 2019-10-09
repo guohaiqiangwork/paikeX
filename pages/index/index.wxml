@@ -1,0 +1,366 @@
+<view class="container">
+  <image class="topbg" src="/images/index/topbg1.png"></image>
+  <!--活动倒计时开始 -->
+  <view class="activity-countdown">
+    <view class="countdown-container">
+      <text class="countdown-info">离活动结束还有：</text>
+      <text class="date-num">{{index}}</text>
+      <text class="countdown-info">天</text>
+      <text class="date-num">12</text>
+      <text class="countdown-info">时</text>
+      <text class="date-num">35</text>
+      <text class="countdown-info">分</text>
+      <text class="date-num">20</text>
+      <text class="countdown-info">秒</text>
+    </view>
+    <text class="countdown-total">50万奖金</text>
+    <text class="countdown-total">10个商家</text>
+    <text class="countdown-total">1894人浏览</text>
+    <text class="countdown-total">1237人报名</text>
+  </view>
+  <!--活动倒计时结束 -->
+  <!-- 活动说明开始 -->
+  <!-- <view class="activity-explain">
+    <image src="/images/index/explain.png"></image>
+  </view> -->
+  <!-- 活动说明结束 -->
+  <!-- 联盟主办商家开始 -->
+  <view class="business-container">
+    <view class="business-box">
+      <view class="business-title">
+        <image class="decorate" src="/images/index/decorate.png"></image>
+        <text class="business-text">联盟主办商家</text>
+        <image class="decorate" src="/images/index/decorate.png"></image>
+      </view>
+      <view class="swiper-container">
+        <swiper circular="{{true}}" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="5000">
+          <swiper-item>
+            <image src="/images/index/business.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="/images/index/business.png"></image>
+          </swiper-item>
+          <swiper-item>
+            <image src="/images/index/business.png"></image>
+          </swiper-item>
+        </swiper>
+      </view>
+    </view>
+  </view>
+  <!-- 联盟主办商家结束 -->
+  <!-- 活动动态开始-->
+  <view class="activity-dynamic-container">
+    <view class="activity-dynamic">
+      <view class="activity-dynamic-head">
+        <image class="activity-dynamic-decorate" src="/images/index/decorate2.png"></image>
+        <text class="activity-dynamic-title">活动动态</text>
+        <image class="activity-dynamic-decorate" src="/images/index/decorate2.png"></image>
+      </view>
+      <view class="activity-dynamic-user-item">
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+        </view>
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+        </view>
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+        </view>
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+        </view>
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+        </view>
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+        </view>
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+        </view>
+        <view class="activity-dynamic-user-container">
+          <image class="activity-dynamic-user-img" src="/images/index/user1.png"></image>
+          <text class="activity-dynamic-user-name">Allin</text>
+          <!-- <image class="activity-dynamic-ellipsis" src="/images/index/ellipsis.png"></image> -->
+        </view>
+      </view>
+      <text class="activity-dynamic-signup">已有1237人报名</text>
+    </view>
+  </view>
+  <!-- 活动动态结束-->
+  <!--提交点评开始 -->
+  <view class="submit-comments">
+    <image class="submit-comments-bg" src="/images/index/submitcommentsbg.png"></image>
+    <view class="submit-comments-head">
+      <image class="submit-comments-decorate" src="/images/index/decorate3.png"></image>
+      <text class="count-comments">已有 <text class="user-count">156</text> 人提交点评</text>
+      <image class="submit-comments-decorate" src="/images/index/decorate3.png"></image>
+      <image class="line" src="/images/index/line.png"></image>
+    </view>
+    <view class="submit-comments-item-container">
+      <view class="submit-comments-item">
+        <image class="submit-comments-user-avatar" src="/images/index/user_avatar.png"></image>
+        <text class="submit-comments-user-name">神秘的小伙伴</text>
+        <image class="submit-comments-moneyicon" src="/images/index/money.png"></image>
+        <text class="submit-comments-estimate">预计奖金3500元</text>
+        <text class="submit-comments-date">2019.8.16</text>
+      </view>
+      <view class="submit-comments-item">
+        <image class="submit-comments-user-avatar" src="/images/index/user_avatar.png"></image>
+        <text class="submit-comments-user-name">神秘的小伙伴</text>
+        <image class="submit-comments-moneyicon" src="/images/index/money.png"></image>
+        <text class="submit-comments-estimate">预计奖金3500元</text>
+        <text class="submit-comments-date">2019.8.16</text>
+      </view>
+      <view class="submit-comments-item">
+        <image class="submit-comments-user-avatar" src="/images/index/user_avatar.png"></image>
+        <text class="submit-comments-user-name">神秘的小伙伴</text>
+        <image class="submit-comments-moneyicon" src="/images/index/money.png"></image>
+        <text class="submit-comments-estimate">预计奖金3500元</text>
+        <text class="submit-comments-date">2019.8.16</text>
+      </view>
+      <view class="submit-comments-item">
+        <image class="submit-comments-user-avatar" src="/images/index/user_avatar.png"></image>
+        <text class="submit-comments-user-name">神秘的小伙伴</text>
+        <image class="submit-comments-moneyicon" src="/images/index/money.png"></image>
+        <text class="submit-comments-estimate">预计奖金3500元</text>
+        <text class="submit-comments-date">2019.8.16</text>
+      </view>
+      <image class="submit-comments-arrow-next" src="/images/index/arrow_next.png"></image>
+    </view>
+  </view>
+  <!-- 提交点评结束-->
+  <!-- π客玩法开始-->
+  <!-- <view class="playganme-container">
+    <image src="/images/index/playgame.jpg"></image>
+    <view class="activity-details">查看详情</view>
+  </view> -->
+  <!-- π客玩法结束 -->
+  <!-- π客美食菜单开始-->
+
+  <block>
+    <view class="list-nav-container">
+      <view class="list-nav flex">
+        <view class="" wx:for="{{tabMainList}}" wx:key="{{index}}">
+          <view class="nav-item   {{index != 3 ? 'nav-column' : '' }}" bindtap="clickTab" data-index="{{index}}">{{item.name}}
+            <view class=" nav-item-active {{(index!=0)? 'left' : ''}}" wx:if="{{index == tabMainIndex}}">
+              <view class="inline column">
+                <text>{{item.name}}</text>
+                <text class="nav-tip">{{item.tip}}</text>
+              </view>
+              <view class="border-arrow" hidden="{{index == 3}}">
+
+              </view>
+            </view>
+          </view>
+
+          <!-- <text hidden="{{index == 3}}">|</text> -->
+        </view>
+      </view>
+    </view>
+
+    <view class="goods-list ">
+      <view class="goods-item flex between column" wx:for='{{mainList}}' wx:key="{{index}}">
+
+        <view class="item-top flex between">
+          <view class=" flex">
+            <view class="goods-img">
+              <image class="goods-img" src="{{item.img}}"></image>
+            </view>
+
+            <view class="gooods-content">
+
+              <view class="store-msg">
+                <view class="store-name">{{item.storeName}}</view>
+                <view class="store-score">{{item.score}}</view>
+                <view class="store-address">{{item.address}}</view>
+
+                <view class="tip-container flex between align-center">
+                  <view>
+                    <image class="icon-size" src="../../images/index/eyes.png"></image>
+                    <text class="spc-10">112231</text>
+                  </view>
+                  <view>
+                    <image class="icon-size" src="../../images/index/comment.png"></image>
+                    <text class="spc-10">1343423</text>
+                  </view>
+                  <view>
+                    <image class="icon-size" src="../../images/index/notic.png"></image>
+                    <text class="spc-10">15435</text>
+                  </view>
+                </view>
+              </view>
+
+
+            </view>
+          </view>
+
+
+
+          <view class="goods-pos">
+            <view class="flex">
+              <image class="icon-size" src="../../images/index/pos.png"></image>
+              <text>565fdss</text>
+            </view>
+
+          </view>
+
+        </view>
+        <view class="bottom-container">
+          <view class="item-bottom mt-30" style="background-image:url('../../images/index/yhj01.png') no-repeat;background-size: 100% 100%;">
+            <view class="discount-container flex between">
+              <view>
+                <view class="text-center text-width">
+                  <text class="font-28 white">10</text>
+                  <text class="font-20 white">元</text>
+                </view>
+
+                <view class="font-20 text-center white">现金券</view>
+              </view>
+              <view class="flex column">
+                <text class="font-20 black text-center">到店可抵现金用券</text>
+                <text class="font-20 grey">（无消费限制，可叠加使用）</text>
+              </view>
+              <view class="word-lr font-20 red text-center">立即领取</view>
+            </view>
+          </view>
+          <view class="item-bottom mb-30 mt-20" style="background:url('../../images/index/yhj02.png') no-repeat;background-size: 100% 100%;">
+            <view class="discount-container flex between">
+              <view>
+                <view class="text-center text-width">
+                  <text class="font-28 white">10</text>
+                  <text class="font-20 white">元</text>
+                </view>
+
+                <view class="font-20 text-center white">现金券</view>
+              </view>
+              <view class="flex column">
+                <text class="font-20 black text-center">到店可抵现金用券</text>
+                <text class="font-20 grey">（无消费限制，可叠加使用）</text>
+              </view>
+              <view class="word-lr font-20 red text-center">立即领取</view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+
+    </view>
+
+  </block>
+  <!-- π客美食菜单结束-->
+
+  <!-- π客福利开始 -->
+  <view class="welfare-contaner">
+    <view class="welfare-title">π客福利</view>
+    <view class="welfare-list flex">
+      <view class="welfare-item" wx:for="{{welfList}}">
+        <view>
+          <image class="welfare-img"></image>
+        </view>
+        <view class="font-24 welfare-color">10元现金券</view>
+        <view class="font-20 grey">分享集赞达标奖励</view>
+      </view>
+    </view>
+    <view class="detail-btn">详细说明</view>
+  </view>
+  <!-- π客福利结束 -->
+
+  <!-- 评论模块开始-->
+  <view class="comment">
+    <view class="tab-title">
+      <view wx:for="{{tabList}}" wx:key="{{index}}">
+        <view class="tab-head-item {{tabIndex == index ? 'active' :''}}" bindtap="tabClick" data-index="{{index}}">{{item.name}}</view>
+      </view>
+      <!-- <view class="tab-head-item" >最新评论</view>
+      <view class="tab-head-item active" bindtap="tabClick">评客排行榜</view> -->
+    </view>
+    <view class="tab-content-box">
+      <view class="tab-content-container">
+        <view class="tab-content-user-info">
+          <image class="tab-content-user-avatar" src="/images/index/user_avatar.png"></image>
+          <text class="tab-content-user-name">创融小谢</text>
+        </view>
+        <view class="font-20 mb-30 mt-spe">
+          的税费改革梵蒂冈地方官地方官梵蒂冈地方梵蒂冈地方官梵蒂冈的广泛大概豆腐干反对广泛大概豆腐干豆腐干反对高浮雕个发的个
+        </view>
+        <view class="flex between">
+          <view class="comment-img"></view>
+          <view class="comment-img"></view>
+          <view class="comment-img"></view>
+          <view class="comment-img"></view>
+        </view>
+        <view class="flex between mt-spe">
+          <text>dfsfdssf</text>
+          <view class="flex">
+            <view>
+              <image class="icon-size" src="../../images/index/eyes.png"></image>
+              <text class="spc-10">fdf</text>
+            </view>
+            <view>
+              <image class="icon-size" src="../../images/index/notic.png"></image>
+              <text class="spc-10">df</text>
+            </view>
+          </view>
+
+        </view>
+      </view>
+    </view>
+
+
+  </view>
+  <!-- 评论模块结束-->
+  <!-- 侧边导航开始-->
+  <view class="slider">
+    <view class="slider-box {{isDrag ? 'drag-slider' : ''}} " bindtap="dragSlider">
+      <image class="slider-img pos1" src="/images/index/notic.png"></image>
+    </view>
+    <view wx:if="{{isDrag}}">
+      <view class="slider-box ">
+        <image class="slider-img pos1" src="/images/index/ycdh_01.png"></image>
+      </view>
+      <view class="slider-box">
+        <image class="slider-img pos2" src="/images/index/ycdh_02.png"></image>
+      </view>
+      <view class="slider-box">
+        <image class="slider-img pos3" src="/images/index/ycdh_03.png"></image>
+      </view>
+      <view class="slider-box">
+        <image class="slider-img pos4" src="/images/index/ycdh_04.png"></image>
+      </view>
+      <view class="slider-box">
+        <image class="slider-img pos5" src="/images/index/ycdh_05.png"></image>
+      </view>
+      <view class="slider-box">
+        <image class="slider-img pos6" src="/images/index/ycdh_06.png"></image>
+      </view>
+      <view class="slider-box">
+        <image class="slider-img pos7" src="/images/index/ycdh_07.png"></image>
+      </view>
+    </view>
+
+  </view>
+  <!-- 侧边导航结束-->
+  <!--顶部弹框开始 -->
+  <view class="elastic-info">
+    <view class="elastic-info-box">
+      <image class="user-img" src="/images/index/user1.png"></image>
+      <text class="user-info">创荣小谢185****2377  报名成功</text>
+      <text class="elastic-date">刚刚</text>
+    </view>
+  </view>
+
+  <!--顶部弹框结束 -->
+</view>
+<!-- <open-data type="userAvatarUrl"></open-data>
+<open-data type="userNickName"></open-data> -->
+
+<button wx:if="{{canIUse}}" open-type="getUserInfo" bindgetuserinfo="bindGetUserInfo">授权登录</button>
+<view wx:else>请升级微信版本</view>
