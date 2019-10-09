@@ -2,8 +2,9 @@
 <view class='box-detail' style="padding-top:{{bar_Height  + 42}}px;">
   <navbar title='排行榜' show_bol='{{ishideback}}' my_class='{{my_class}}'></navbar>
 </view>
-<view class="bj_image_t">
-
+<view style="margin-top:-5%">
+  <image src="../../images/bj.png" style="width:100%"></image>
+</view>
   <view style='margin-top:{{bar_Height - 50}}rpx' class='{{isRuleTrue ?"indexFixed":""}}'>
     <!-- 内容 -->
     <view class='product_view_centerb' style='min-height:{{phone_Height}}px'>
@@ -20,5 +21,4 @@
         <view wx:if="{{produc_tabFalg == '001'}}">{{phone_Height}}</view>
       </view>
     </view>
-  </view>
 </view>
